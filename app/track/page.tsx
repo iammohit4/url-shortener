@@ -20,6 +20,7 @@ const Track = () => {
             }
         }
         catch (e) {
+            alert("Something went wrong");
             console.error(e);
         }
         setLoading(false);

@@ -19,6 +19,7 @@ const Home = () => {
             }
         }
         catch (e) {
+            alert("Something went wrong");
             console.error(e);
         }
         setLoading(false);
